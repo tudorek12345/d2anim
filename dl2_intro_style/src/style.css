@@ -230,6 +230,18 @@ body {
   margin-bottom: 4px;
 }
 
+#watermark {
+  position: absolute;
+  left: 24px;
+  bottom: 22px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(231, 237, 242, 0.45);
+  pointer-events: none;
+}
+
 #app[data-state='completed'] #skipHint {
   opacity: 0;
 }
