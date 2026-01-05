@@ -67,3 +67,7 @@ Update script beats in `src/intro/script.ts`. Each beat controls:
 - Press `R`: replay (also available in debug overlay).
 - Move mouse: parallax + wind push on debris.
 - Click/tap: impact pulse + debris burst.
+
+## 2D Foreground
+
+The gritty 2D layer includes rain streaks, hanging cables, searchlight sweeps, flickering billboards, collapsing silhouettes, and drifting debris fields. The watermark `(C) Heperkoo` is rendered as part of the UI overlay.
